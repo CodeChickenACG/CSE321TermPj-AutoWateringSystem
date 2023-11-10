@@ -60,7 +60,6 @@ void loop() {
   }
 
   float h = dht.readHumidity();
-  // Read temperature as Celsius (the default)
   float t = dht.readTemperature();
   if (isnan(h) || isnan(t)) {
     Serial.println("Failed to read from DHT sensor!");
@@ -74,7 +73,7 @@ void loop() {
   Serial.println("°C");
   // Update the OLED display with the current moisture level
   drawMoistureLevel(sensorValue);
-  delay(2000);
+  delay(1000);
   drawDHT11SensorData(t,h);
 
 }
