@@ -1,3 +1,8 @@
+**Author:** Zhibiao Jiang
+
+**Project Reason:** University at Buffalo CSE 321 Real-Time and Embedded Operating Systems Course Project
+
+**Date of Completion:** December 2, 2023
 # Automatic Plant Watering System
 
 The automatic plant watering system uses Arduino Uno and sensor modules designed to provide a convenient solution to maintaining healthy plants. It defines a common issue of inconsistent watering’s damage to plant health, ensuring plants receive the right amount of water at the right time.
