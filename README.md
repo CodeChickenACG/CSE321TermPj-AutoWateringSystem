@@ -1,6 +1,6 @@
 # Automatic Plant Watering System
 
-The Automatic Plant Watering System is designed to address the common issue of inconsistent watering, which can harm plant health. Utilizing an Arduino Uno and various sensor modules, this system ensures that plants receive the appropriate amount of water at the right time, promoting optimal growth conditions.
+The automatic plant watering system uses Arduino Uno and sensor modules designed to provide a convenient solution to maintaining healthy plants. It defines a common issue of inconsistent watering’s damage to plant health, ensuring plants receive the right amount of water at the right time.
 
 # How to use
 ### Step 1: 
@@ -29,9 +29,9 @@ Temperature and Moisture Sensor: Monitors the environmental conditions.
 Connect Cables: Facilitates connections between components.
 
 ## System Description
-The system uses soil moisture sensors to monitor the soil's moisture level. When the moisture falls below a preset threshold, the Arduino Uno activates a water pump to hydrate the plant. The Arduino, serving as the system's brain, continually reads data from the sensors and manages the activation of the water pump.
-
-A digital display and a temperature moisture sensor module are included for real-time monitoring. Users can view environmental conditions and soil moisture levels directly on the digital display, facilitating easy maintenance and monitoring.
+This system utilizes sensor modules, such as soil moisture sensors, to detect the moisture level in the soil. When the soil moisture falls below a certain threshold, the Arduino Uno activates a water pump with a soft pipe to water the plant, which ensures optimal soil moisture levels for the plant to grow.
+The Arduino Uno acts as the system's brain, after being programmed, it can read data from the sensors, process it, and activate the water pump. The sensors are placed in the plant's soil, and the Arduino is also programmed to monitor the moisture level continuously. When the moisture level drops too low, the Arduino activates the water pump to deliver water to the plant.
+For the Actuator of the system, a digital display and a temperature moisture sensor module are added to the system. Users can directly see information through the digital display, including the temperature and moisture level of the environment.
 
 ## UML Use Case Diagram
 ![屏幕截图(327)](https://github.com/CodeChickenACG/CSE321TermPj-AutoWateringSystem/assets/86710386/6d70eaab-0493-4a21-bc74-198d8986c782)
